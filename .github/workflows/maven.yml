@@ -42,7 +42,7 @@ jobs:
           reporter: java-junit
           fail-on-error: true
     - name: SonarCloud Scan
-      run: mvn -B verify sonar:sonar -Dsonar.projectKey=spunittest -Dsonar.organization=baraneetharan -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_TOKEN
+      run: mvn -B verify sonar:sonar -Dsonar.projectKey=baraneetharan_spunittest -Dsonar.organization=baraneetharan -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_TOKEN
       env:
         GITHUB_TOKEN: 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
         SONAR_TOKEN: a2ebc02a0dccaf237ecbac1577e6ed7f35943779
