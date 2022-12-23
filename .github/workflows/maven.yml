@@ -46,3 +46,4 @@ jobs:
       env:
         GITHUB_TOKEN: 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
         SONAR_TOKEN: a2ebc02a0dccaf237ecbac1577e6ed7f35943779
+        SONAR_HOST_URL: https://sonarcloud.io
